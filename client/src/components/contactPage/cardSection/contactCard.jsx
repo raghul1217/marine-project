@@ -5,7 +5,7 @@ import RoomIcon from "@mui/icons-material/Room";
 
 const VisionSection = () => {
   return (
-    <section className="py-16 bg-gray-100" style={{ marginTop: "-100px" }}>
+    <section className="py-16" style={{ marginTop: "-100px" }}>
   <div className="max-w-5xl px-4 mx-auto sm:px-6 lg:px-8">
     <div className="grid grid-cols-1 gap-8 mt-12 sm:grid-cols-2 lg:grid-cols-3">
       <div className="flex flex-col items-center p-4 border">

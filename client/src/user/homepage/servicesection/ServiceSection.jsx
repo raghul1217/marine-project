@@ -33,10 +33,11 @@ const ServiceSection = () => {
   };
 
   return (
-    <div className="service-section"
-      data-aos="zoom-in"
-      data-aos-duration="1000"
-      data-aos-easing="ease-in-out"
+    <div>
+      <div className="service-section"
+      // data-aos="zoom-in"
+      // data-aos-duration="1000"
+      // data-aos-easing="ease-in-out"
     >
       <h2>Our Services</h2>
       <div className="service-cards">
@@ -72,6 +73,8 @@ const ServiceSection = () => {
         )}
       </div>
     </div>
+    </div>
+    
   );
 };
 

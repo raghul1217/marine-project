@@ -13,8 +13,8 @@ const HomePage = () => {
     {/* <Navbar/> */}
     <HeroSection/>
     <AboutSection/>
-    <ServiceSection/>
-    <FeatureSection/>
+    {/* <ServiceSection/>
+    <FeatureSection/> */}
     {/* <Testimonials/> */}
     
     </div>

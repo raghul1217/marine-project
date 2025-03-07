@@ -5,10 +5,11 @@ import LocationOnIcon from "@mui/icons-material/LocationOn";
 import FacebookIcon from "@mui/icons-material/Facebook";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import InstagramIcon from "@mui/icons-material/Instagram";
+import "../../../app.css";
 
 const ContactDetails = () => {
   return (
-    <div className="w-full md:w-7/12 lg:pl-12">
+    <div className="w-full md:w-7/12 lg:pl-12 ">
   <h2 className="mb-6 text-xl md:text-2xl font-bold">Contact Details</h2>
   <p className="mb-4 text-sm md:text-base text-gray-700">
     Feel free to get in touch with us. We are available to assist you with
