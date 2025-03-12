@@ -3,6 +3,12 @@ import axios from 'axios';
 import './ServicePage.css';
 import CustomSeparator from '../../components/breadcrumb/BreadCrumb';
 import ServiceBanner from './servicebanner/ServiceBanner';
+import fish1 from "../../assets/image/fish1.gif";
+import fish2 from "../../assets/image/fish2.gif";
+import fish8 from "../../assets/image/fish8.gif";
+import fish9 from "../../assets/image/fish9.gif";
+import fish11 from "../../assets/image/fish11.gif";
+
 
 const ServicePage = () => {
   // State to store services data
@@ -39,6 +45,29 @@ const ServicePage = () => {
   // Render services and sub-services
   return (
     <div className="servicepage-wrapper">
+      <img src={fish1} alt="fish" className='fish' />
+      <img src={fish2} alt="fish" className='fish' />
+      <img src={fish9} alt="fish" className='fish' />
+      <img src={fish8} alt="fish" className='fish' />
+      <img src={fish9} alt="fish" className='fish' />
+      <img src={fish1} alt="fish" className='fish' />
+      <img src={fish11} alt="fish" className='fish' />
+      <img src={fish2} alt="fish" className='fish' />
+      <img src={fish11} alt="fish" className='fish' />
+      <img src={fish1} alt="fish" className='fish' />
+      <img src={fish2} alt="fish" className='fish' />
+      <img src={fish8} alt="fish" className='fish' />
+      <img src={fish1} alt="fish" className='fish' />
+      <img src={fish2} alt="fish" className='fish' />
+      <img src={fish11} alt="fish" className='fish' />
+      <img src={fish8} alt="fish" className='fish' />
+      <img src={fish1} alt="fish" className='fish' />
+      <img src={fish2} alt="fish" className='fish' />
+      <img src={fish11} alt="fish" className='fish' />
+      <img src={fish9} alt="fish" className='fish' />
+      <img src={fish1} alt="fish" className='fish' />
+      <img src={fish2} alt="fish" className='fish' />
+      <img src={fish1} alt="fish" className='fish' />
     <ServiceBanner/>
     <div className="servicepage-heading-wrapper">
     <h1 className='servicepage-heading'>Services</h1>

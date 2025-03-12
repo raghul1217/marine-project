@@ -3,14 +3,9 @@
 :root{
   --font1: "Montserrat", "sans-serif";
   --primary: hsl(180, 100%, 1%);
-  --secondary1:  hsl(238, 22%, 44%);
-  --secondary1:  hsl(224, 93%, 58%);
-  --secondary1:  hsl(216, 53%, 9%);
-  --secondary:  #1c2431;
-  --secondary1:  #3c9f8f;
-  --card: #21293C;
   --main: #63e2db;
   --text: #e0e0e0;
+  --white: #fff;
 }
 
 body{
@@ -92,42 +87,64 @@ body{
 
   .same-bg {
     position: relative;
-    /* width: 100vw;
-    height: 100vh; */
+    width: 100%;
+    min-height: 100vh;
     background: 
-        radial-gradient(circle at 5% 10%, rgba(41, 170, 184, 0.784) 10%, rgba(30, 116, 145, 0.666) 30%, transparent 50%), 
+        radial-gradient(circle at 5% 10%, rgba(41, 170, 184, 0.8) 10%, rgba(30, 116, 145, 0.6) 30%, transparent 50%), 
         radial-gradient(circle at 95% 90%, rgba(29, 109, 118, 0.6) 10%, rgba(27, 108, 135, 0.3) 30%, transparent 50%), 
         radial-gradient(circle at center, rgb(29, 109, 118) 10%, rgba(10, 40, 50, 0.2) 30%, transparent 50%), 
         rgb(3, 15, 20);
     overflow: hidden;
 }
 
+/* Fish styling */
 .fish {
     position: absolute;
-    width: 100px; /* Adjust size as needed */
+    width: 80px; /* Adjust size as needed */
     animation: swim 10s linear infinite;
 }
 
-/* Fish Animation */
+/* Fish swimming animation */
 @keyframes swim {
     from {
-        transform: translateX(100vw) translateY(50px) scaleX(1);
+        transform: translateX(100vw) scaleX(1);
     }
     to {
-        transform: translateX(-100px) translateY(50px) scaleX(1);
+        transform: translateX(-120px) scaleX(1);
     }
 }
 
-/* Multiple fish */
-.fish:nth-child(1) { top: 10%; animation-duration: 8s; animation-delay: 1s; }
-.fish:nth-child(2) { top: 30%; animation-duration: 12s; animation-delay: 2s; transform: scaleX(-1); }
-.fish:nth-child(3) { top: 50%; animation-duration: 14s; animation-delay: 3s; }
-.fish:nth-child(4) { top: 70%; animation-duration: 9s; animation-delay: 1.5s; transform: scaleX(-1); }
-.fish:nth-child(5) { top: 85%; animation-duration: 11s; animation-delay: 2.5s; }
-.fish:nth-child(6) { top: 15%; animation-duration: 10s; animation-delay: 1s; transform: scaleX(-1); }
-.fish:nth-child(7) { top: 40%; animation-duration: 13s; animation-delay: 3.5s; }
-.fish:nth-child(8) { top: 60%; animation-duration: 15s; animation-delay: 2s; transform: scaleX(-1); }
-.fish:nth-child(9) { top: 80%; animation-duration: 9s; animation-delay: 1s; }
+/* Staggered fish animations for variety */
+.fish:nth-child(1) { top: 2%; animation-duration: 12s; animation-delay: 1s; }
+.fish:nth-child(2) { top: 8%; animation-duration: 15s; animation-delay: 2s; transform: scaleX(-1); }
+.fish:nth-child(3) { top: 12%; animation-duration: 12s; animation-delay: 1.5s; }
+.fish:nth-child(4) { top: 15%; animation-duration: 13s; animation-delay: 1.5s; transform: scaleX(-1); }
+.fish:nth-child(5) { top: 20%; animation-duration: 9s; animation-delay: 2.5s; }
+.fish:nth-child(6) { top: 23%; animation-duration: 18s; animation-delay: 1s; transform: scaleX(-1); }
+.fish:nth-child(7) { top: 27%; animation-duration: 10s; animation-delay: 3.5s; }
+.fish:nth-child(8) { top: 31%; animation-duration: 14s; animation-delay: 2s; transform: scaleX(-1); }
+.fish:nth-child(9) { top: 34%; animation-duration: 11s; animation-delay: 1s; }
+.fish:nth-child(10) { top: 38%; animation-duration: 16s; animation-delay: 2s; transform: scaleX(-1); }
+.fish:nth-child(11) { top: 42%; animation-duration: 11s; animation-delay: 1.5s;  }
+.fish:nth-child(12) { top: 46%; animation-duration: 17s; animation-delay: 2.5s; transform: scaleX(-1); }
+.fish:nth-child(13) { top: 50%; animation-duration: 12s; animation-delay: 3.5s;  }
+.fish:nth-child(14) { top: 55%; animation-duration: 17s; animation-delay: 2.5s;  }
+.fish:nth-child(15) { top: 59%; animation-duration: 10s; animation-delay: 1s;  }
+.fish:nth-child(16) { top: 64%; animation-duration: 13s; animation-delay: 3.5s;  }
+.fish:nth-child(17) { top: 69%; animation-duration: 17s; animation-delay: 1s;  }
+.fish:nth-child(18) { top: 74%; animation-duration: 12s; animation-delay: 1.5s;  }
+.fish:nth-child(19) { top: 78%; animation-duration: 14s; animation-delay: 1s;  }
+.fish:nth-child(20) { top: 83%; animation-duration: 11s; animation-delay: 3s;  }
+.fish:nth-child(21) { top: 88%; animation-duration: 11s; animation-delay: 1.5s;  }
+.fish:nth-child(22) { top: 93%; animation-duration: 15s; animation-delay: 3s;  }
+.fish:nth-child(23) { top: 95%; animation-duration: 13s; animation-delay: 1s;  }
+
+/* Responsive Fixes */
+@media (max-width: 768px) {
+    .fish {
+        width: 50px; /* Smaller fish for mobile */
+    }
+}
 
 
   
