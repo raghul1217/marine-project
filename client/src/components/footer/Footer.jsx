@@ -6,7 +6,14 @@ import XIcon from '@mui/icons-material/X';
 
 const Footer = () => {
   return (
-    <footer className="footer" role="contentinfo">
+    <footer className="footer1" >
+    <div class="waves">
+		<div class="wave" id="wave1"></div>
+		<div class="wave" id="wave2"></div>
+		<div class="wave" id="wave3"></div>
+		<div class="wave" id="wave4"></div>
+	  </div>
+      <div className="footer" role="contentinfo">
       <div className="footer-left">
         <img
           src={logo}
@@ -58,6 +65,7 @@ const Footer = () => {
           <a href="#" aria-label="Facebook" className="u-url"><i className="fa-brands fa-facebook"><FacebookIcon/></i></a>
           <a href="#" aria-label="Instagram" className="u-url"><i className="fa-brands fa-instagram"><InstagramIcon/></i></a>
         </div>
+      </div>
       </div>
     </footer>
   );
