@@ -15,7 +15,7 @@ import fish12 from "../../../assets/image/fish12.gif";
 const About = () => {
   return (
     <div className="same-bg">
-      <img src={fish1} alt="fish" className='fish' />
+      {/* <img src={fish1} alt="fish" className='fish' />
       <img src={fish2} alt="fish" className='fish' />
       <img src={fish9} alt="fish" className='fish' />
       <img src={fish8} alt="fish" className='fish' />
@@ -37,7 +37,10 @@ const About = () => {
       <img src={fish9} alt="fish" className='fish' />
       <img src={fish1} alt="fish" className='fish' />
       <img src={fish2} alt="fish" className='fish' />
-      <img src={fish1} alt="fish" className='fish' />
+      <img src={fish1} alt="fish" className='fish' /> */}
+      <div className="neon-glow1"></div>
+      <div className="neon-glow2"></div>
+      <div className="neon-glow3"></div>
       <section id="about" className="about-section">
      
      <div className="about-container">

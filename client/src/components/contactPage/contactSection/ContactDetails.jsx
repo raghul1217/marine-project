@@ -9,37 +9,37 @@ import "../../../app.css";
 
 const ContactDetails = () => {
   return (
-    <div className="w-full md:w-7/12 lg:pl-12 ">
-  <h2 className="mb-6 text-xl md:text-2xl font-bold">Contact Details</h2>
-  <p className="mb-4 text-sm md:text-base text-gray-700">
+    <div className="w-full md:w-7/12 lg:pl-12 c-content ">
+  <h2 className="mb-6 text-xl md:text-2xl font-bold c-head">Contact Details</h2>
+  <p className="mb-4 text-sm md:text-base t">
     Feel free to get in touch with us. We are available to assist you with
     any inquiries or concerns you may have.
   </p>
   <div className="mb-4">
-    <h3 className="mb-2 text-base md:text-lg font-semibold">
+    <h3 className="mb-2 text-base md:text-lg font-semibold c-head">
       <EmailIcon className="inline-block mr-2" />
       Email
     </h3>
-    <p className="text-gray-700 text-sm md:text-base">manikandansns05@gmail.com</p>
+    <p className=" text-sm md:text-base">manikandansns05@gmail.com</p>
   </div>
   <div className="mb-4">
-    <h3 className="mb-2 text-base md:text-lg font-semibold">
+    <h3 className="mb-2 text-base md:text-lg font-semibold c-head">
       <PhoneIcon className="inline-block mr-2" />
       Phone
     </h3>
-    <p className="text-gray-700 text-sm md:text-base">+91 70105 34355</p>
+    <p className=" text-sm md:text-base">+91 70105 34355</p>
   </div>
   <div className="mb-4">
-    <h3 className="mb-2 text-base md:text-lg font-semibold">
+    <h3 className="mb-2 text-base md:text-lg font-semibold c-head">
       <LocationOnIcon className="inline-block mr-2" />
       Address
     </h3>
-    <p className="text-gray-700 text-sm md:text-base">
+    <p className=" text-sm md:text-base">
     Head Office No.42 Boatman Street, Devanampattinam, Cuddalore.
     </p>
   </div>
   <div className="mb-4">
-    <div className="flex items-center space-x-4">
+    <div className="flex items-center space-x-4 c-head">
       <a
         href="https://www.facebook.com/people/Vanmoh-Chit-Funds/pfbid0KWuqR1gT6tYgQHUwtJMYgHNCZMRCDy7zEVCQMRWjn42PZraVDp8uVCEYM4ER5PgMl/?mibextid=LQQJ4d"
         className="mb-2 text-base md:text-lg font-semibold"

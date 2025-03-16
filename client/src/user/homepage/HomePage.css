@@ -18,7 +18,7 @@ body{
 .hero {
     position: relative;
     width: 100%;
-    height: 85vh;
+    height: 90vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -54,7 +54,7 @@ body{
     top: 0;
     left: 0;
     width: 100%;
-    height: 85vh;
+    height: 90vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -78,9 +78,6 @@ body{
   /* about-section starts */
   
   .about-section {
-    /* background-color: #494b4c6e;  */
-    /* background-color: var(--secondary); */ 
-
     padding: 5rem 7rem;
     text-align: center; 
   }
@@ -89,68 +86,33 @@ body{
     position: relative;
     width: 100%;
     min-height: 100vh;
-    background: 
-        radial-gradient(circle at 5% 10%, rgba(41, 170, 184, 0.8) 10%, rgba(30, 116, 145, 0.6) 30%, transparent 50%), 
-        radial-gradient(circle at 95% 90%, rgba(29, 109, 118, 0.6) 10%, rgba(27, 108, 135, 0.3) 30%, transparent 50%), 
-        radial-gradient(circle at center, rgb(29, 109, 118) 10%, rgba(10, 40, 50, 0.2) 30%, transparent 50%), 
-        rgb(3, 15, 20);
+    background-color: rgb(0, 11, 20);
     overflow: hidden;
+    padding-bottom: 100px;
 }
 
-/* Fish styling */
-.fish {
-    position: absolute;
-    width: 80px; /* Adjust size as needed */
-    animation: swim 10s linear infinite;
+/* .neon-glow1 {
+  position: absolute;
+  top: 65%;
+  width: 100vw;
+  height: 700px;
+  background: radial-gradient(circle, rgba(0, 251, 255, 0.5) 0%, rgba(0, 183, 255, 0) 60%);
+  filter: blur(80px); 
+  border-radius: 50%;
 }
-
-/* Fish swimming animation */
-@keyframes swim {
-    from {
-        transform: translateX(100vw) scaleX(1);
-    }
-    to {
-        transform: translateX(-120px) scaleX(1);
-    }
-}
-
-/* Staggered fish animations for variety */
-.fish:nth-child(1) { top: 2%; animation-duration: 12s; animation-delay: 1s; }
-.fish:nth-child(2) { top: 8%; animation-duration: 15s; animation-delay: 2s; transform: scaleX(-1); }
-.fish:nth-child(3) { top: 12%; animation-duration: 12s; animation-delay: 1.5s; }
-.fish:nth-child(4) { top: 15%; animation-duration: 13s; animation-delay: 1.5s; transform: scaleX(-1); }
-.fish:nth-child(5) { top: 20%; animation-duration: 9s; animation-delay: 2.5s; }
-.fish:nth-child(6) { top: 23%; animation-duration: 18s; animation-delay: 1s; transform: scaleX(-1); }
-.fish:nth-child(7) { top: 27%; animation-duration: 10s; animation-delay: 3.5s; }
-.fish:nth-child(8) { top: 31%; animation-duration: 14s; animation-delay: 2s; transform: scaleX(-1); }
-.fish:nth-child(9) { top: 34%; animation-duration: 11s; animation-delay: 1s; }
-.fish:nth-child(10) { top: 38%; animation-duration: 16s; animation-delay: 2s; transform: scaleX(-1); }
-.fish:nth-child(11) { top: 42%; animation-duration: 11s; animation-delay: 1.5s;  }
-.fish:nth-child(12) { top: 46%; animation-duration: 17s; animation-delay: 2.5s; transform: scaleX(-1); }
-.fish:nth-child(13) { top: 50%; animation-duration: 12s; animation-delay: 3.5s;  }
-.fish:nth-child(14) { top: 55%; animation-duration: 17s; animation-delay: 2.5s;  }
-.fish:nth-child(15) { top: 59%; animation-duration: 10s; animation-delay: 1s;  }
-.fish:nth-child(16) { top: 64%; animation-duration: 13s; animation-delay: 3.5s;  }
-.fish:nth-child(17) { top: 69%; animation-duration: 17s; animation-delay: 1s;  }
-.fish:nth-child(18) { top: 74%; animation-duration: 12s; animation-delay: 1.5s;  }
-.fish:nth-child(19) { top: 78%; animation-duration: 14s; animation-delay: 1s;  }
-.fish:nth-child(20) { top: 83%; animation-duration: 11s; animation-delay: 3s;  }
-.fish:nth-child(21) { top: 88%; animation-duration: 11s; animation-delay: 1.5s;  }
-.fish:nth-child(22) { top: 93%; animation-duration: 15s; animation-delay: 3s;  }
-.fish:nth-child(23) { top: 95%; animation-duration: 13s; animation-delay: 1s;  }
-
-/* Responsive Fixes */
-@media (max-width: 768px) {
-    .fish {
-        width: 50px; /* Smaller fish for mobile */
-    }
-}
+.neon-glow2 {
+  position: absolute;
+  top: 25%;
+  width: 100vw;
+  height: 700px;
+  background: radial-gradient(circle, rgba(0, 242, 255, 0.5) 0%, rgba(0, 183, 255, 0) 60%);
+  filter: blur(80px); 
+  border-radius: 50%;
+} */
 
 
-  
-  /* .same-bg{
-    background: url(../../assets/image/bg1.webp);
-  } */
+
+
 
   
   .about-content-wrapper {
@@ -226,9 +188,6 @@ body{
   
   /* Service section starts */
   .service-section {
-    /* background-color: #050505; */
-    /* background-color: var(--primary); */
-    /* background: radial-gradient(circle at 20% 20%, rgb(29, 109, 118) 10%, rgb(10, 40, 50) 50%, rgb(1, 12, 14) 100%); */
     padding: 5rem 4rem;
   }
 
@@ -359,9 +318,6 @@ body{
   }
   
   .testimonial-card {
-    /* background-color: #fff; 
-    border-radius: 10px; 
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);  */
     background: rgba(255, 255, 255, 0.1); /* Transparent White */
   border-radius: 15px;
   backdrop-filter: blur(10px); /* Blur Effect */
@@ -421,10 +377,6 @@ body{
 .experience-wrapper {
   display: flex;
   justify-content: center;
-  /* background-color: #494b4c6e; */
-  /* background-color: var(--secondary); */
-  /* background: radial-gradient(circle, rgb(29, 109, 118) 5%, rgb(10, 40, 50) 45%, rgb(0, 13, 16) 90%); */
-
   padding: 5rem 4rem;
   height: 100vh;
 }
@@ -460,17 +412,10 @@ body{
   max-width: 23%;
   height: 380px;
   padding: 1.5rem;
-  /* border: 1px solid var(--card);
-  border-radius: 8px;
-  /* background-color: #ffffff; 
-  background-color: var(--card); */
-  background: rgba(255, 255, 255, 0.1); /* Transparent White */
-  border-radius: 15px;
-  backdrop-filter: blur(10px); /* Blur Effect */
-  -webkit-backdrop-filter: blur(10px); /* Safari Support */
-  border: 1px solid rgba(255, 255, 255, 0.2); /* Soft Border */
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Subtle Shadow */
+  background-color: rgb(12, 27, 39);
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
   text-align: center;
+  border-radius: 8px;
   transition: transform 0.3s ease;
   display: flex;
   flex-direction: column;

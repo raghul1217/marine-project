@@ -44,10 +44,11 @@ const EmailForms = () => {
   };
 
   return (
-    <div className="mb-12 w-full shrink-0 grow-0 basis-auto md:px-3 lg:mb-0 lg:w-5/12 lg:px-6">
-      <h2 className="text-xl sm:text-2xl lg:text-2xl font-bold mb-6">Contact Us</h2>
+    <div className="mb-12 w-full shrink-0 grow-0 basis-auto md:px-3 lg:mb-0 lg:w-5/12 lg:px-6 c-label">
+      <h2 className="c-head text-xl sm:text-2xl lg:text-2xl font-bold mb-6 ">Contact Us</h2>
 
       <form onSubmit={handleSubmit}>
+
         {successMessage && (
           <div className="mb-4 text-green-600">
             <strong>{successMessage}</strong>
@@ -61,7 +62,7 @@ const EmailForms = () => {
         <div className="mb-4">
           <label
             htmlFor="name"
-            className="block text-sm font-medium text-gray-700"
+            className="block text-sm font-medium "
           >
             Name
           </label>
@@ -78,7 +79,7 @@ const EmailForms = () => {
         <div className="mb-4">
           <label
             htmlFor="email"
-            className="block text-sm font-medium text-gray-700"
+            className="block text-sm font-medium "
           >
             Email
           </label>
@@ -95,7 +96,7 @@ const EmailForms = () => {
         <div className="mb-6">
           <label
             htmlFor="message"
-            className="block text-sm font-medium text-gray-700"
+            className="block text-sm font-medium "
           >
             Message
           </label>
@@ -112,7 +113,7 @@ const EmailForms = () => {
         <div className="flex items-center">
           <button
             type="submit"
-            className="bg-[#4a91a0] text-white font-semibold px-6 py-3 rounded-md focus:outline-none focus:ring focus:border-blue-300 hover:bg-[#357a7c]"
+            className="c-btn text-white font-semibold px-6 py-2 rounded-md    "
           >
             Submit
           </button>

@@ -2,11 +2,6 @@ import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import { useNavigate } from 'react-router-dom';
 import './AdminDashboard.css';
-import fish1 from "../assets/image/fish1.gif";
-import fish2 from "../assets/image/fish2.gif";
-import fish8 from "../assets/image/fish8.gif";
- import fish9 from "../assets/image/fish9.gif";
-import fish11 from "../assets/image/fish11.gif";
 
 
 const AdminDashboard = () => {
@@ -74,29 +69,6 @@ const AdminDashboard = () => {
 
     return (
         <div className="admin-dashboard">
-            <img src={fish1} alt="fish" className='fish' />
-      <img src={fish2} alt="fish" className='fish' />
-      <img src={fish9} alt="fish" className='fish' />
-      <img src={fish8} alt="fish" className='fish' />
-      <img src={fish9} alt="fish" className='fish' />
-      <img src={fish1} alt="fish" className='fish' />
-      <img src={fish11} alt="fish" className='fish' />
-      <img src={fish2} alt="fish" className='fish' />
-      <img src={fish11} alt="fish" className='fish' />
-      <img src={fish1} alt="fish" className='fish' />
-      <img src={fish2} alt="fish" className='fish' />
-      <img src={fish8} alt="fish" className='fish' />
-      <img src={fish1} alt="fish" className='fish' />
-      <img src={fish2} alt="fish" className='fish' />
-      <img src={fish11} alt="fish" className='fish' />
-      <img src={fish8} alt="fish" className='fish' />
-      <img src={fish1} alt="fish" className='fish' />
-      <img src={fish2} alt="fish" className='fish' />
-      <img src={fish11} alt="fish" className='fish' />
-      <img src={fish9} alt="fish" className='fish' />
-      <img src={fish1} alt="fish" className='fish' />
-      <img src={fish2} alt="fish" className='fish' />
-      <img src={fish1} alt="fish" className='fish' />
             <div className="admin-nav-wrapper">
                 <div className="admin-nav-logo">
                     <h1 className="admin-title" id='admin-title'>Admin Dashboard</h1>
@@ -124,7 +96,7 @@ const AdminDashboard = () => {
                         <tbody>
                             {services.map(service => (
                                 
-                                <tr key={service._id} style={{ background: 'papayawhip' }}>
+                                <tr key={service._id} >
                                     <td>
                                         <img src={`http://localhost:5000/${service.image}`} alt={service.title} className="admin-service-image" />
                                     </td>

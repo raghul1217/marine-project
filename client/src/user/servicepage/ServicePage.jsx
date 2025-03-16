@@ -45,29 +45,7 @@ const ServicePage = () => {
   // Render services and sub-services
   return (
     <div className="servicepage-wrapper">
-      <img src={fish1} alt="fish" className='fish' />
-      <img src={fish2} alt="fish" className='fish' />
-      <img src={fish9} alt="fish" className='fish' />
-      <img src={fish8} alt="fish" className='fish' />
-      <img src={fish9} alt="fish" className='fish' />
-      <img src={fish1} alt="fish" className='fish' />
-      <img src={fish11} alt="fish" className='fish' />
-      <img src={fish2} alt="fish" className='fish' />
-      <img src={fish11} alt="fish" className='fish' />
-      <img src={fish1} alt="fish" className='fish' />
-      <img src={fish2} alt="fish" className='fish' />
-      <img src={fish8} alt="fish" className='fish' />
-      <img src={fish1} alt="fish" className='fish' />
-      <img src={fish2} alt="fish" className='fish' />
-      <img src={fish11} alt="fish" className='fish' />
-      <img src={fish8} alt="fish" className='fish' />
-      <img src={fish1} alt="fish" className='fish' />
-      <img src={fish2} alt="fish" className='fish' />
-      <img src={fish11} alt="fish" className='fish' />
-      <img src={fish9} alt="fish" className='fish' />
-      <img src={fish1} alt="fish" className='fish' />
-      <img src={fish2} alt="fish" className='fish' />
-      <img src={fish1} alt="fish" className='fish' />
+      <div className="neon-glow"></div>
     <ServiceBanner/>
     <div className="servicepage-heading-wrapper">
     <h1 className='servicepage-heading'>Services</h1>
